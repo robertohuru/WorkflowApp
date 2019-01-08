@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<operations>
+  <operation>
+    <name>production.ilwis</name>
+    <longname>production</longname>
+    <namespace>ilwis</namespace>
+    <keywords/>
+    <syntax>production(url,value,value,value)</syntax>
+    <input_parameters>
+      <parameter>
+        <name>Rainfall map (mm)</name>
+        <types>
+          <type>CombinationMatrix</type>
+          <type>Model</type>
+          <type>Script</type>
+          <type>Workflow</type>
+          <type>Catalog</type>
+          <type>SingleOperation</type>
+          <type>Georeference</type>
+          <type>Representation</type>
+          <type>Projection</type>
+          <type>Ellipsoid</type>
+          <type>BoundsOnlyCoordinateSystem</type>
+          <type>ConventionalCoordinateSystem</type>
+          <type>ColorDomain</type>
+          <type>ItemDomain</type>
+          <type>ValueDomain</type>
+          <type>RasterCoverage</type>
+          <type>PolygonCoverage</type>
+          <type>LineCoverage</type>
+          <type>PointCoverage</type>
+        </types>
+        <desc>The object will opened and is available in the workflow</desc>
+        <optional>false</optional>
+        <needsquotes>false</needsquotes>
+      </parameter>
+      <parameter>
+        <name>Rainfall Factor</name>
+        <types>
+          <type>String</type>
+        </types>
+        <desc>Value of the variable</desc>
+        <optional>false</optional>
+        <needsquotes>true</needsquotes>
+      </parameter>
+      <parameter>
+        <name>proper use factor</name>
+        <types>
+          <type>String</type>
+        </types>
+        <desc>Value of the variable</desc>
+        <optional>false</optional>
+        <needsquotes>true</needsquotes>
+      </parameter>
+      <parameter>
+        <name>type P_factor or P_na</name>
+        <types>
+          <type>String</type>
+        </types>
+        <desc>Value of the variable</desc>
+        <optional>false</optional>
+        <needsquotes>true</needsquotes>
+      </parameter>
+    </input_parameters>
+    <output_parameters>
+      <parameter>
+        <name>raster coverage</name>
+        <types>
+          <type>RasterCoverage</type>
+        </types>
+        <optional>false</optional>
+      </parameter>
+    </output_parameters>
+  </operation>
+</operations>

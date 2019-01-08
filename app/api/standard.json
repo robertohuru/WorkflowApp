@@ -1,0 +1,55 @@
+
+{
+    "id": 0,
+    "metadata": {
+        "name": "",
+        "description": ""
+    },
+    "operations": [
+        {
+            "id": 0,
+            "metadata": {
+                "longname": "",
+                "label": "",                
+                "description": "",
+                "inputparametercount": 0,
+                "outputparametercount": 0,
+                "url": "",
+                "resource": "",
+                "position": [0, 0]
+            },
+            "inputs": [
+                {
+                    "id": 0,
+                    "identifier": "",
+                    "name": "",
+                    "type": "",
+                    "description": "",
+                    "optional": false,
+                    "url": "",
+                    "value": ""
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 0,
+                    "identifier": "",
+                    "name": "",
+                    "value": "",
+                    "description": "",
+                    "type": ""
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "fromOperationID": 0,
+            "toOperationID": 1,
+            "fromParameterID": 0,
+            "toParameterID": 0
+        }
+    ]
+}
+
+
